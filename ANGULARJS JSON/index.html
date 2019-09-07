@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JSON con Flores</title>
+<style>
+body{ font-family: sans-serif;}
+li{
+font-size: 0.8em;
+}
+li span{
+font-weight: bold;
+}
+</style>
+</head>
+<body>
+<div ng-app="apiApp" ng-controller="apiAppCtrl as vm">
+<h1>JSON con flores</h1>
+<p>
+Selecciona que tipo de flor quieres ver de acuerdo a su popularidad:
+<select ng-model="vm.url" ng-change="vm.buscaEnRegion()">
+<option value="http://localhost:3000/flores-todas">Todas</option>
+<option value="http://localhost:3000/flores-popularidadalta">Alta</option>
+<option value="http://localhost:3000/flores-popularidadmedia-alta">Media-alta</option>
+<option value="http://localhost:3000/flores-popularidadmedia">Media</option>
+<option value="http://localhost:3000/flores-popularidadbaja">Baja</option>
+</select>
+</p>
+<ul>
+<li ng-repeat="pais in vm.paises">Nombre: <span>{{pais.nombre}}</span>, Color:
+{{pais.color}}, Clasificacion: {{pais.clasificacion}}, precio: {{pais.precio}}, popularidad: {{pais.popularidad}}</li>
+</ul>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.24/angular.min.js"></script>
+<script>
+angular
+.module('apiApp', [])
+.controller('apiAppCtrl', ['$http', controladorPrincipal]);
+function controladorPrincipal($http){
+var vm=this;
+vm.buscaEnRegion = function(){
+$http.get(vm.url).success(function(respuesta){
+//console.log("res:", respuesta);
+vm.paises = respuesta;
+});
+}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,340 @@
+{
+    "flores-todas": [
+      {
+        "id": 1,
+        "nombre": "rosa",
+        "color": "rojo",
+        "clasificacion": "clásica",
+        "precio": "$20",
+        "popularidad": "alta"
+      },
+      {
+        "id": 2,
+        "nombre": "tulipan",
+        "color": "blanco",
+        "clasificacion": "temporada",
+        "precio": "$30",
+        "popularidad": "alta"
+      },
+      {
+        "id": 3,
+        "nombre": "girasol",
+        "color": "amarillo",
+        "clasificacion": "clásica",
+        "precio": "$20",
+        "popularidad": "alta"
+      },
+      {
+        "id": 4,
+        "nombre": "lirio",
+        "color": "morado",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "alta"
+      },
+      {
+        "id": 5,
+        "nombre": "margaritas",
+        "color": "blanco",
+        "clasificacion": "temporada",
+        "precio": "$20",
+        "popularidad": "alta"
+      },
+      {
+        "id": 6,
+        "nombre": "gerberas",
+        "color": "rosa",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "media - alta"
+      },
+      {
+        "id": 7,
+        "nombre": "diente de leon",
+        "color": "blanco",
+        "clasificacion": "clásica",
+        "precio": "$20",
+        "popularidad": "media - alta"
+      },
+      {
+        "id": 8,
+        "nombre": "flor de lis",
+        "color": "blanco",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "media - alta"
+      },
+      {
+        "id": 9,
+        "nombre": "orquideas",
+        "color": "rosa",
+        "clasificacion": "temporada",
+        "precio": "$20",
+        "popularidad": "media - alta"
+      },
+      {
+        "id": 10,
+        "nombre": "Flor de Loto",
+        "color": "blanco",
+        "clasificacion": "temporada",
+        "precio": "$30",
+        "popularidad": "media - alta"
+      },
+      {
+        "id": 11,
+        "nombre": "magnolia",
+        "color": "blanco",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "media"
+      },
+      {
+        "id": 12,
+        "nombre": "jazmines",
+        "color": "blanco",
+        "clasificacion": "temporada",
+        "precio": "$20",
+        "popularidad": "media"
+      },
+      {
+        "id": 13,
+        "nombre": "hortensia",
+        "color": "morado",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "media"
+      },
+      {
+        "id": 14,
+        "nombre": "lantana",
+        "color": "morado",
+        "clasificacion": "temporada",
+        "precio": "$40",
+        "popularidad": "media"
+      },
+      {
+        "id": 15,
+        "nombre": "orquidea",
+        "color": "morado",
+        "clasificacion": "clásica",
+        "precio": "$20",
+        "popularidad": "baja"
+      },
+      {
+        "id": 16,
+        "nombre": "plumeria",
+        "color": "blanco",
+        "clasificacion": "clásica",
+        "precio": "$40",
+        "popularidad": "baja"
+      },
+      {
+        "id": 17,
+        "nombre": "canna india",
+        "color": "amarillo",
+        "clasificacion": "temporada",
+        "precio": "$30",
+        "popularidad": "baja"
+      },
+      {
+        "id": 18,
+        "nombre": "flor de cerezo",
+        "color": "morado",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "baja"
+      },
+      {
+        "id": 19,
+        "nombre": "flor de la pasión",
+        "color": "morado",
+        "clasificacion": "temporada",
+        "precio": "$40",
+        "popularidad": "baja"
+      },
+      {
+        "id": 20,
+        "nombre": "gazania",
+        "color": "amarillo",
+        "clasificacion": "temporada",
+        "precio": "$40",
+        "popularidad": "baja"
+      }
+    ],
+    "flores-popularidadalta": [
+        {
+            "id": 1,
+            "nombre": "rosa",
+            "color": "rojo",
+            "clasificacion": "clásica",
+            "precio": "$20",
+            "popularidad": "alta"
+          },
+          {
+            "id": 2,
+            "nombre": "tulipan",
+            "color": "blanco",
+            "clasificacion": "temporada",
+            "precio": "$30",
+            "popularidad": "alta"
+          },
+          {
+            "id": 3,
+            "nombre": "girasol",
+            "color": "amarillo",
+            "clasificacion": "clásica",
+            "precio": "$20",
+            "popularidad": "alta"
+          },
+          {
+            "id": 4,
+            "nombre": "lirio",
+            "color": "morado",
+            "clasificacion": "clásica",
+            "precio": "$30",
+            "popularidad": "alta"
+          },
+          {
+            "id": 5,
+            "nombre": "margaritas",
+            "color": "blanco",
+            "clasificacion": "temporada",
+            "precio": "$20",
+            "popularidad": "alta"
+          }
+    ],
+    "flores-popularidadmedia-alta": [
+        {
+            "id": 6,
+            "nombre": "gerberas",
+            "color": "rosa",
+            "clasificacion": "clásica",
+            "precio": "$30",
+            "popularidad": "media - alta"
+          },
+          {
+            "id": 7,
+            "nombre": "diente de leon",
+            "color": "blanco",
+            "clasificacion": "clásica",
+            "precio": "$20",
+            "popularidad": "media - alta"
+          },
+          {
+            "id": 8,
+            "nombre": "flor de lis",
+            "color": "blanco",
+            "clasificacion": "clásica",
+            "precio": "$30",
+            "popularidad": "media - alta"
+          },
+          {
+            "id": 9,
+            "nombre": "orquideas",
+            "color": "rosa",
+            "clasificacion": "temporada",
+            "precio": "$20",
+            "popularidad": "media - alta"
+          },
+          {
+            "id": 10,
+            "nombre": "Flor de Loto",
+            "color": "blanco",
+            "clasificacion": "temporada",
+            "precio": "$30",
+            "popularidad": "media - alta"
+          }
+    ],
+    "flores-popularidadmedia": [
+        {
+            "id": 11,
+            "nombre": "magnolia",
+            "color": "blanco",
+            "clasificacion": "clásica",
+            "precio": "$30",
+            "popularidad": "media"
+          },
+          {
+            "id": 12,
+            "nombre": "jazmines",
+            "color": "blanco",
+            "clasificacion": "temporada",
+            "precio": "$20",
+            "popularidad": "media"
+          },
+          {
+            "id": 13,
+            "nombre": "hortensia",
+            "color": "moradpo",
+            "clasificacion": "clásica",
+            "precio": "$30",
+            "popularidad": "media"
+          },
+          {
+            "id": 14,
+            "nombre": "lantana",
+            "color": "morado",
+            "clasificacion": "temporada",
+            "precio": "$40",
+            "popularidad": "media"
+          },
+          {
+            "id": 15,
+            "nombre": "orquidea",
+            "color": "morado",
+            "clasificacion": "clásica",
+            "precio": "$20",
+            "popularidad": "media"
+          }
+    ],
+    "flores-popularidadbaja": [
+       {
+        "id": 15,
+        "nombre": "orquidea",
+        "color": "morado",
+        "clasificacion": "clásica",
+        "precio": "$20",
+        "popularidad": "baja"
+      },
+      {
+        "id": 16,
+        "nombre": "plumeria",
+        "color": "blanco",
+        "clasificacion": "clásica",
+        "precio": "$40",
+        "popularidad": "baja"
+      },
+      {
+        "id": 17,
+        "nombre": "canna india",
+        "color": "amarillo",
+        "clasificacion": "temporada",
+        "precio": "$30",
+        "popularidad": "baja"
+      },
+      {
+        "id": 18,
+        "nombre": "flor de cerezo",
+        "color": "morado",
+        "clasificacion": "clásica",
+        "precio": "$30",
+        "popularidad": "baja"
+      },
+      {
+        "id": 19,
+        "nombre": "flor de la pasión",
+        "color": "morado",
+        "clasificacion": "temporada",
+        "precio": "$40",
+        "popularidad": "baja"
+      },
+      {
+        "id": 20,
+        "nombre": "gazania",
+        "color": "amarillo",
+        "clasificacion": "temporada",
+        "precio": "$40",
+        "popularidad": "baja"
+      }
+    ]
+  }
